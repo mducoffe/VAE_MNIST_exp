@@ -16,15 +16,16 @@ import argparse
 import time
 import gzip, cPickle
 
+print 'kikou'
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-d","--double", help="Train on hidden layer of previously trained AE - specify params", default = False)
 
 args = parser.parse_args()
 
 print "Loading MNIST data"
-#Retrieved from: http://deeplearning.net/data/mnist/mnist.pkl.gz
 
-f = gzip.open('mnist.pkl.gz', 'rb')
+f = gzip.open('/data/lisa/data/mnist/mnist.pkl.gz', 'rb')
 (x_train, t_train), (x_valid, t_valid), (x_test, t_test)  = cPickle.load(f)
 f.close()
 
@@ -42,14 +43,15 @@ if args.double:
     print 'computing hidden layer to train new AE on'
     prev_params = np.load(args.double)
     data = (np.tanh(data.dot(prev_params[0].T) + prev_params[5].T) + 1) /2
-    x_test = (np.tanh(x_test.dot(prev_params[0].T) + prev_params[5].T) +1) /2
+    x_test = (np.tanh(x_valid.dot(prev_params[0].T) + prev_params[5].T) +1) /2
 
 [N,dimX] = data.shape
 encoder = VariationalAutoencoder.VA(HU_decoder,HU_encoder,dimX,dimZ,batch_size,L,learning_rate)
 
 
-if args.double:
-    encoder.continuous = True
+
+lower_bound = -np.inf
+best_params = None
 
 print "Creating Theano functions"
 encoder.createGradientFunctions()
@@ -58,9 +60,9 @@ print "Initializing weights and biases"
 encoder.initParams()
 lowerbound = np.array([])
 testlowerbound = np.array([])
-
 begin = time.time()
-for j in xrange(1500):
+
+for j in xrange(1000):
     encoder.lowerbound = 0
     print 'Iteration:', j
     encoder.iterate(data)
@@ -69,7 +71,12 @@ for j in xrange(1500):
           " time = %.2fs"
           % (j, encoder.lowerbound/N, end - begin))
     begin = end
-
-    if j % 5 == 0:
-        print "Calculating test lowerbound"
-        testlowerbound = np.append(testlowerbound,encoder.getLowerBound(x_test))
+    temp = encoder.getLowerBound(x_test)
+    if temp > lower_bound:
+        "kikou"
+        lower_bound=temp
+        best_params = np.copy(encoder.params)
+        fichier = open("demo/sauvegarde.txt",'wb')
+        cPickle.dump(encoder.params, fichier)
+        fichier.close()
+    print "Test :"+str(temp)

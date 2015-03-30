@@ -1,0 +1,2386 @@
+kikou
+Loading MNIST data
+Creating Theano functions
+Initializing weights and biases
+Iteration: 0
+Iteration 0, lower bound = -195.40, time = 29.52s
+Test :-173.550942733
+Iteration: 1
+Iteration 1, lower bound = -167.07, time = 32.04s
+Test :-157.370657684
+Iteration: 2
+Iteration 2, lower bound = -157.93, time = 36.37s
+Test :-153.428699183
+Iteration: 3
+Iteration 3, lower bound = -153.22, time = 34.69s
+Test :-148.281315281
+Iteration: 4
+Iteration 4, lower bound = -148.42, time = 32.12s
+Test :-143.410685816
+Iteration: 5
+Iteration 5, lower bound = -144.13, time = 31.96s
+Test :-140.186348515
+Iteration: 6
+Iteration 6, lower bound = -141.58, time = 31.77s
+Test :-138.196695635
+Iteration: 7
+Iteration 7, lower bound = -139.78, time = 31.86s
+Test :-136.716394854
+Iteration: 8
+Iteration 8, lower bound = -138.39, time = 31.78s
+Test :-135.166515736
+Iteration: 9
+Iteration 9, lower bound = -136.78, time = 32.28s
+Test :-133.682776822
+Iteration: 10
+Iteration 10, lower bound = -135.45, time = 31.95s
+Test :-132.880134887
+Iteration: 11
+Iteration 11, lower bound = -134.48, time = 32.01s
+Test :-131.820341322
+Iteration: 12
+Iteration 12, lower bound = -133.53, time = 31.76s
+Test :-131.005138767
+Iteration: 13
+Iteration 13, lower bound = -132.59, time = 31.86s
+Test :-130.010332435
+Iteration: 14
+Iteration 14, lower bound = -131.58, time = 32.38s
+Test :-128.742271324
+Iteration: 15
+Iteration 15, lower bound = -130.54, time = 31.96s
+Test :-127.860033562
+Iteration: 16
+Iteration 16, lower bound = -129.71, time = 32.10s
+Test :-127.133445883
+Iteration: 17
+Iteration 17, lower bound = -128.94, time = 32.11s
+Test :-126.337314793
+Iteration: 18
+Iteration 18, lower bound = -128.13, time = 31.74s
+Test :-125.735215677
+Iteration: 19
+Iteration 19, lower bound = -127.47, time = 31.85s
+Test :-124.912713062
+Iteration: 20
+Iteration 20, lower bound = -126.85, time = 31.96s
+Test :-124.373173931
+Iteration: 21
+Iteration 21, lower bound = -126.29, time = 31.98s
+Test :-123.82085525
+Iteration: 22
+Iteration 22, lower bound = -125.70, time = 31.83s
+Test :-123.381855411
+Iteration: 23
+Iteration 23, lower bound = -125.13, time = 31.87s
+Test :-122.693260083
+Iteration: 24
+Iteration 24, lower bound = -124.62, time = 31.92s
+Test :-122.272742826
+Iteration: 25
+Iteration 25, lower bound = -124.19, time = 32.14s
+Test :-121.873687667
+Iteration: 26
+Iteration 26, lower bound = -123.79, time = 32.17s
+Test :-121.390386643
+Iteration: 27
+Iteration 27, lower bound = -123.35, time = 31.95s
+Test :-120.939521126
+Iteration: 28
+Iteration 28, lower bound = -122.86, time = 31.69s
+Test :-120.454812452
+Iteration: 29
+Iteration 29, lower bound = -122.29, time = 32.05s
+Test :-119.924325402
+Iteration: 30
+Iteration 30, lower bound = -121.79, time = 32.07s
+Test :-119.360178235
+Iteration: 31
+Iteration 31, lower bound = -121.37, time = 31.89s
+Test :-119.019980469
+Iteration: 32
+Iteration 32, lower bound = -120.94, time = 32.14s
+Test :-118.77232249
+Iteration: 33
+Iteration 33, lower bound = -120.65, time = 32.01s
+Test :-118.378482605
+Iteration: 34
+Iteration 34, lower bound = -120.31, time = 31.86s
+Test :-118.065185076
+Iteration: 35
+Iteration 35, lower bound = -120.01, time = 31.90s
+Test :-117.625121027
+Iteration: 36
+Iteration 36, lower bound = -119.66, time = 31.98s
+Test :-117.442064067
+Iteration: 37
+Iteration 37, lower bound = -119.38, time = 32.02s
+Test :-117.025252533
+Iteration: 38
+Iteration 38, lower bound = -119.05, time = 32.15s
+Test :-116.84937028
+Iteration: 39
+Iteration 39, lower bound = -118.74, time = 31.99s
+Test :-116.525675356
+Iteration: 40
+Iteration 40, lower bound = -118.43, time = 31.88s
+Test :-116.251501863
+Iteration: 41
+Iteration 41, lower bound = -118.14, time = 31.75s
+Test :-116.009367704
+Iteration: 42
+Iteration 42, lower bound = -117.88, time = 32.06s
+Test :-115.70927428
+Iteration: 43
+Iteration 43, lower bound = -117.64, time = 32.65s
+Test :-115.426618688
+Iteration: 44
+Iteration 44, lower bound = -117.39, time = 31.87s
+Test :-115.25117144
+Iteration: 45
+Iteration 45, lower bound = -117.12, time = 32.14s
+Test :-115.040190679
+Iteration: 46
+Iteration 46, lower bound = -116.93, time = 32.24s
+Test :-114.809217506
+Iteration: 47
+Iteration 47, lower bound = -116.73, time = 31.93s
+Test :-114.681926262
+Iteration: 48
+Iteration 48, lower bound = -116.51, time = 32.09s
+Test :-114.450766217
+Iteration: 49
+Iteration 49, lower bound = -116.35, time = 32.61s
+Test :-114.213296714
+Iteration: 50
+Iteration 50, lower bound = -116.15, time = 31.82s
+Test :-114.070929109
+Iteration: 51
+Iteration 51, lower bound = -115.97, time = 31.89s
+Test :-113.895648989
+Iteration: 52
+Iteration 52, lower bound = -115.82, time = 31.96s
+Test :-113.731118396
+Iteration: 53
+Iteration 53, lower bound = -115.62, time = 31.98s
+Test :-113.665051599
+Iteration: 54
+Iteration 54, lower bound = -115.46, time = 31.84s
+Test :-113.416667156
+Iteration: 55
+Iteration 55, lower bound = -115.32, time = 31.98s
+Test :-113.295068892
+Iteration: 56
+Iteration 56, lower bound = -115.15, time = 31.96s
+Test :-113.114795242
+Iteration: 57
+Iteration 57, lower bound = -114.97, time = 34.24s
+Test :-112.940435754
+Iteration: 58
+Iteration 58, lower bound = -114.78, time = 32.14s
+Test :-112.828264773
+Iteration: 59
+Iteration 59, lower bound = -114.63, time = 32.59s
+Test :-112.710766624
+Iteration: 60
+Iteration 60, lower bound = -114.49, time = 31.92s
+Test :-112.502707955
+Iteration: 61
+Iteration 61, lower bound = -114.36, time = 33.48s
+Test :-112.326132052
+Iteration: 62
+Iteration 62, lower bound = -114.18, time = 32.02s
+Test :-112.22007768
+Iteration: 63
+Iteration 63, lower bound = -113.99, time = 31.84s
+Test :-112.080925612
+Iteration: 64
+Iteration 64, lower bound = -113.86, time = 31.91s
+Test :-111.995040882
+Iteration: 65
+Iteration 65, lower bound = -113.72, time = 32.05s
+Test :-111.804549053
+Iteration: 66
+Iteration 66, lower bound = -113.58, time = 32.00s
+Test :-111.694865133
+Iteration: 67
+Iteration 67, lower bound = -113.46, time = 35.66s
+Test :-111.512145484
+Iteration: 68
+Iteration 68, lower bound = -113.32, time = 32.01s
+Test :-111.390346838
+Iteration: 69
+Iteration 69, lower bound = -113.21, time = 32.02s
+Test :-111.284446995
+Iteration: 70
+Iteration 70, lower bound = -113.06, time = 31.85s
+Test :-111.191226438
+Iteration: 71
+Iteration 71, lower bound = -112.96, time = 32.37s
+Test :-111.139696352
+Iteration: 72
+Iteration 72, lower bound = -112.85, time = 32.10s
+Test :-111.034064604
+Iteration: 73
+Iteration 73, lower bound = -112.71, time = 32.05s
+Test :-110.816929519
+Iteration: 74
+Iteration 74, lower bound = -112.62, time = 32.00s
+Test :-110.794694017
+Iteration: 75
+Iteration 75, lower bound = -112.56, time = 32.45s
+Test :-110.673760036
+Iteration: 76
+Iteration 76, lower bound = -112.42, time = 31.95s
+Test :-110.522017572
+Iteration: 77
+Iteration 77, lower bound = -112.29, time = 32.05s
+Test :-110.437031491
+Iteration: 78
+Iteration 78, lower bound = -112.20, time = 32.04s
+Test :-110.356124452
+Iteration: 79
+Iteration 79, lower bound = -112.08, time = 35.42s
+Test :-110.234650584
+Iteration: 80
+Iteration 80, lower bound = -112.02, time = 31.95s
+Test :-110.167703203
+Iteration: 81
+Iteration 81, lower bound = -111.92, time = 32.11s
+Test :-110.160925957
+Iteration: 82
+Iteration 82, lower bound = -111.84, time = 31.99s
+Test :-110.002753789
+Iteration: 83
+Iteration 83, lower bound = -111.74, time = 31.92s
+Test :-110.013825561
+Iteration: 84
+Iteration 84, lower bound = -111.64, time = 31.36s
+Test :-109.943605967
+Iteration: 85
+Iteration 85, lower bound = -111.53, time = 31.97s
+Test :-109.751127268
+Iteration: 86
+Iteration 86, lower bound = -111.45, time = 32.09s
+Test :-109.772132517
+Iteration: 87
+Iteration 87, lower bound = -111.38, time = 31.40s
+Test :-109.545731717
+Iteration: 88
+Iteration 88, lower bound = -111.31, time = 32.12s
+Test :-109.507530193
+Iteration: 89
+Iteration 89, lower bound = -111.22, time = 31.91s
+Test :-109.428346838
+Iteration: 90
+Iteration 90, lower bound = -111.13, time = 31.95s
+Test :-109.402181724
+Iteration: 91
+Iteration 91, lower bound = -111.05, time = 32.01s
+Test :-109.279559924
+Iteration: 92
+Iteration 92, lower bound = -110.97, time = 31.91s
+Test :-109.265206697
+Iteration: 93
+Iteration 93, lower bound = -110.86, time = 31.86s
+Test :-109.161686738
+Iteration: 94
+Iteration 94, lower bound = -110.80, time = 31.91s
+Test :-109.074061467
+Iteration: 95
+Iteration 95, lower bound = -110.74, time = 31.71s
+Test :-109.001178513
+Iteration: 96
+Iteration 96, lower bound = -110.67, time = 31.78s
+Test :-108.920312994
+Iteration: 97
+Iteration 97, lower bound = -110.59, time = 31.83s
+Test :-108.840145261
+Iteration: 98
+Iteration 98, lower bound = -110.49, time = 31.86s
+Test :-108.756796878
+Iteration: 99
+Iteration 99, lower bound = -110.45, time = 31.83s
+Test :-108.766992261
+Iteration: 100
+Iteration 100, lower bound = -110.39, time = 31.29s
+Test :-108.753773453
+Iteration: 101
+Iteration 101, lower bound = -110.32, time = 31.75s
+Test :-108.662701695
+Iteration: 102
+Iteration 102, lower bound = -110.27, time = 32.08s
+Test :-108.675852872
+Iteration: 103
+Iteration 103, lower bound = -110.23, time = 31.29s
+Test :-108.494237191
+Iteration: 104
+Iteration 104, lower bound = -110.08, time = 31.83s
+Test :-108.45444005
+Iteration: 105
+Iteration 105, lower bound = -110.04, time = 33.02s
+Test :-108.492889411
+Iteration: 106
+Iteration 106, lower bound = -110.04, time = 31.36s
+Test :-108.400797004
+Iteration: 107
+Iteration 107, lower bound = -109.95, time = 32.00s
+Test :-108.263549985
+Iteration: 108
+Iteration 108, lower bound = -109.86, time = 32.02s
+Test :-108.221306493
+Iteration: 109
+Iteration 109, lower bound = -109.87, time = 32.18s
+Test :-108.157265344
+Iteration: 110
+Iteration 110, lower bound = -109.74, time = 32.08s
+Test :-108.185985781
+Iteration: 111
+Iteration 111, lower bound = -109.67, time = 31.21s
+Test :-108.133422108
+Iteration: 112
+Iteration 112, lower bound = -109.64, time = 31.81s
+Test :-108.10395585
+Iteration: 113
+Iteration 113, lower bound = -109.57, time = 31.70s
+Test :-107.967861904
+Iteration: 114
+Iteration 114, lower bound = -109.53, time = 31.73s
+Test :-107.940095771
+Iteration: 115
+Iteration 115, lower bound = -109.44, time = 31.99s
+Test :-107.900841858
+Iteration: 116
+Iteration 116, lower bound = -109.43, time = 31.78s
+Test :-107.907075726
+Iteration: 117
+Iteration 117, lower bound = -109.39, time = 31.24s
+Test :-107.789112642
+Iteration: 118
+Iteration 118, lower bound = -109.28, time = 32.09s
+Test :-107.708237197
+Iteration: 119
+Iteration 119, lower bound = -109.24, time = 32.13s
+Test :-107.714008248
+Iteration: 120
+Iteration 120, lower bound = -109.20, time = 31.32s
+Test :-107.62386411
+Iteration: 121
+Iteration 121, lower bound = -109.18, time = 31.83s
+Test :-107.611327198
+Iteration: 122
+Iteration 122, lower bound = -109.11, time = 31.85s
+Test :-107.543521029
+Iteration: 123
+Iteration 123, lower bound = -109.03, time = 31.84s
+Test :-107.562438503
+Iteration: 124
+Iteration 124, lower bound = -109.02, time = 31.64s
+Test :-107.503734194
+Iteration: 125
+Iteration 125, lower bound = -108.92, time = 32.14s
+Test :-107.310207913
+Iteration: 126
+Iteration 126, lower bound = -108.91, time = 31.88s
+Test :-107.352766179
+Iteration: 127
+Iteration 127, lower bound = -108.87, time = 31.53s
+Test :-107.299266181
+Iteration: 128
+Iteration 128, lower bound = -108.83, time = 32.08s
+Test :-107.275225355
+Iteration: 129
+Iteration 129, lower bound = -108.77, time = 31.64s
+Test :-107.235749121
+Iteration: 130
+Iteration 130, lower bound = -108.69, time = 31.80s
+Test :-107.169614443
+Iteration: 131
+Iteration 131, lower bound = -108.67, time = 31.93s
+Test :-107.181941105
+Iteration: 132
+Iteration 132, lower bound = -108.63, time = 31.20s
+Test :-107.075882037
+Iteration: 133
+Iteration 133, lower bound = -108.57, time = 31.99s
+Test :-107.033429782
+Iteration: 134
+Iteration 134, lower bound = -108.55, time = 31.89s
+Test :-107.007305747
+Iteration: 135
+Iteration 135, lower bound = -108.47, time = 31.81s
+Test :-106.996072925
+Iteration: 136
+Iteration 136, lower bound = -108.44, time = 31.88s
+Test :-106.912273085
+Iteration: 137
+Iteration 137, lower bound = -108.38, time = 31.89s
+Test :-106.853919158
+Iteration: 138
+Iteration 138, lower bound = -108.35, time = 31.87s
+Test :-106.871302477
+Iteration: 139
+Iteration 139, lower bound = -108.33, time = 31.21s
+Test :-106.781956039
+Iteration: 140
+Iteration 140, lower bound = -108.27, time = 32.08s
+Test :-106.781565177
+Iteration: 141
+Iteration 141, lower bound = -108.24, time = 31.79s
+Test :-106.728829512
+Iteration: 142
+Iteration 142, lower bound = -108.21, time = 31.80s
+Test :-106.720252226
+Iteration: 143
+Iteration 143, lower bound = -108.16, time = 32.39s
+Test :-106.694145138
+Iteration: 144
+Iteration 144, lower bound = -108.13, time = 31.85s
+Test :-106.641752503
+Iteration: 145
+Iteration 145, lower bound = -108.13, time = 31.73s
+Test :-106.609843292
+Iteration: 146
+Iteration 146, lower bound = -108.03, time = 31.83s
+Test :-106.612855986
+Iteration: 147
+Iteration 147, lower bound = -108.03, time = 31.40s
+Test :-106.500777433
+Iteration: 148
+Iteration 148, lower bound = -107.95, time = 31.77s
+Test :-106.409918636
+Iteration: 149
+Iteration 149, lower bound = -107.95, time = 31.91s
+Test :-106.521333644
+Iteration: 150
+Iteration 150, lower bound = -107.87, time = 31.39s
+Test :-106.427643527
+Iteration: 151
+Iteration 151, lower bound = -107.85, time = 31.32s
+Test :-106.426260154
+Iteration: 152
+Iteration 152, lower bound = -107.80, time = 30.57s
+Test :-106.339617397
+Iteration: 153
+Iteration 153, lower bound = -107.82, time = 31.66s
+Test :-106.368234984
+Iteration: 154
+Iteration 154, lower bound = -107.75, time = 29.11s
+Test :-106.238225835
+Iteration: 155
+Iteration 155, lower bound = -107.69, time = 29.69s
+Test :-106.270369712
+Iteration: 156
+Iteration 156, lower bound = -107.65, time = 28.46s
+Test :-106.239933412
+Iteration: 157
+Iteration 157, lower bound = -107.61, time = 28.44s
+Test :-106.236230314
+Iteration: 158
+Iteration 158, lower bound = -107.62, time = 29.41s
+Test :-106.141400007
+Iteration: 159
+Iteration 159, lower bound = -107.58, time = 33.76s
+Test :-106.177117813
+Iteration: 160
+Iteration 160, lower bound = -107.52, time = 28.59s
+Test :-106.066861805
+Iteration: 161
+Iteration 161, lower bound = -107.51, time = 31.83s
+Test :-106.098522552
+Iteration: 162
+Iteration 162, lower bound = -107.46, time = 28.60s
+Test :-106.072188776
+Iteration: 163
+Iteration 163, lower bound = -107.43, time = 28.59s
+Test :-106.023007803
+Iteration: 164
+Iteration 164, lower bound = -107.38, time = 33.09s
+Test :-106.005310744
+Iteration: 165
+Iteration 165, lower bound = -107.37, time = 30.60s
+Test :-105.91154112
+Iteration: 166
+Iteration 166, lower bound = -107.34, time = 30.31s
+Test :-105.892000995
+Iteration: 167
+Iteration 167, lower bound = -107.31, time = 29.46s
+Test :-105.891420689
+Iteration: 168
+Iteration 168, lower bound = -107.26, time = 32.76s
+Test :-105.921203688
+Iteration: 169
+Iteration 169, lower bound = -107.28, time = 28.64s
+Test :-105.836565392
+Iteration: 170
+Iteration 170, lower bound = -107.23, time = 30.37s
+Test :-105.846374315
+Iteration: 171
+Iteration 171, lower bound = -107.21, time = 28.62s
+Test :-105.784427209
+Iteration: 172
+Iteration 172, lower bound = -107.17, time = 30.12s
+Test :-105.764890193
+Iteration: 173
+Iteration 173, lower bound = -107.13, time = 29.53s
+Test :-105.687677912
+Iteration: 174
+Iteration 174, lower bound = -107.12, time = 31.48s
+Test :-105.720407666
+Iteration: 175
+Iteration 175, lower bound = -107.08, time = 28.95s
+Test :-105.679398275
+Iteration: 176
+Iteration 176, lower bound = -107.06, time = 30.45s
+Test :-105.680112922
+Iteration: 177
+Iteration 177, lower bound = -107.04, time = 29.83s
+Test :-105.70295779
+Iteration: 178
+Iteration 178, lower bound = -107.01, time = 29.02s
+Test :-105.633514768
+Iteration: 179
+Iteration 179, lower bound = -106.95, time = 30.29s
+Test :-105.606258511
+Iteration: 180
+Iteration 180, lower bound = -106.95, time = 30.28s
+Test :-105.508442811
+Iteration: 181
+Iteration 181, lower bound = -106.94, time = 30.24s
+Test :-105.603962579
+Iteration: 182
+Iteration 182, lower bound = -106.87, time = 28.63s
+Test :-105.464230831
+Iteration: 183
+Iteration 183, lower bound = -106.87, time = 41.72s
+Test :-105.519712871
+Iteration: 184
+Iteration 184, lower bound = -106.82, time = 29.12s
+Test :-105.526614198
+Iteration: 185
+Iteration 185, lower bound = -106.81, time = 29.07s
+Test :-105.429317138
+Iteration: 186
+Iteration 186, lower bound = -106.81, time = 29.78s
+Test :-105.42912272
+Iteration: 187
+Iteration 187, lower bound = -106.76, time = 29.98s
+Test :-105.434925861
+Iteration: 188
+Iteration 188, lower bound = -106.71, time = 29.03s
+Test :-105.340063333
+Iteration: 189
+Iteration 189, lower bound = -106.70, time = 30.26s
+Test :-105.331538022
+Iteration: 190
+Iteration 190, lower bound = -106.69, time = 33.03s
+Test :-105.356601993
+Iteration: 191
+Iteration 191, lower bound = -106.66, time = 29.12s
+Test :-105.299203867
+Iteration: 192
+Iteration 192, lower bound = -106.60, time = 31.54s
+Test :-105.261569682
+Iteration: 193
+Iteration 193, lower bound = -106.63, time = 29.89s
+Test :-105.351067073
+Iteration: 194
+Iteration 194, lower bound = -106.57, time = 29.62s
+Test :-105.314308813
+Iteration: 195
+Iteration 195, lower bound = -106.55, time = 28.46s
+Test :-105.13969606
+Iteration: 196
+Iteration 196, lower bound = -106.55, time = 29.85s
+Test :-105.252055198
+Iteration: 197
+Iteration 197, lower bound = -106.49, time = 29.89s
+Test :-105.221369817
+Iteration: 198
+Iteration 198, lower bound = -106.49, time = 28.61s
+Test :-105.120062856
+Iteration: 199
+Iteration 199, lower bound = -106.47, time = 30.90s
+Test :-105.111840701
+Iteration: 200
+Iteration 200, lower bound = -106.45, time = 29.87s
+Test :-105.117914504
+Iteration: 201
+Iteration 201, lower bound = -106.41, time = 29.70s
+Test :-105.148889371
+Iteration: 202
+Iteration 202, lower bound = -106.38, time = 28.52s
+Test :-105.044040348
+Iteration: 203
+Iteration 203, lower bound = -106.39, time = 30.26s
+Test :-105.052951962
+Iteration: 204
+Iteration 204, lower bound = -106.31, time = 28.45s
+Test :-104.952702787
+Iteration: 205
+Iteration 205, lower bound = -106.32, time = 51.04s
+Test :-104.944529552
+Iteration: 206
+Iteration 206, lower bound = -106.28, time = 33.32s
+Test :-105.01964369
+Iteration: 207
+Iteration 207, lower bound = -106.28, time = 28.49s
+Test :-104.974958283
+Iteration: 208
+Iteration 208, lower bound = -106.24, time = 29.11s
+Test :-105.000637714
+Iteration: 209
+Iteration 209, lower bound = -106.23, time = 28.90s
+Test :-105.008910335
+Iteration: 210
+Iteration 210, lower bound = -106.22, time = 29.00s
+Test :-104.948179584
+Iteration: 211
+Iteration 211, lower bound = -106.19, time = 29.79s
+Test :-104.858029247
+Iteration: 212
+Iteration 212, lower bound = -106.17, time = 35.38s
+Test :-104.93740859
+Iteration: 213
+Iteration 213, lower bound = -106.17, time = 28.62s
+Test :-104.890534784
+Iteration: 214
+Iteration 214, lower bound = -106.14, time = 28.61s
+Test :-104.834611604
+Iteration: 215
+Iteration 215, lower bound = -106.12, time = 29.12s
+Test :-104.876552632
+Iteration: 216
+Iteration 216, lower bound = -106.09, time = 28.61s
+Test :-104.894191023
+Iteration: 217
+Iteration 217, lower bound = -106.07, time = 28.61s
+Test :-104.74657794
+Iteration: 218
+Iteration 218, lower bound = -106.07, time = 31.05s
+Test :-104.855347326
+Iteration: 219
+Iteration 219, lower bound = -106.02, time = 28.47s
+Test :-104.760051465
+Iteration: 220
+Iteration 220, lower bound = -106.01, time = 28.48s
+Test :-104.747697237
+Iteration: 221
+Iteration 221, lower bound = -105.99, time = 28.47s
+Test :-104.757961546
+Iteration: 222
+Iteration 222, lower bound = -105.97, time = 28.47s
+Test :-104.740601691
+Iteration: 223
+Iteration 223, lower bound = -105.92, time = 30.61s
+Test :-104.686612402
+Iteration: 224
+Iteration 224, lower bound = -105.93, time = 32.15s
+Test :-104.711231427
+Iteration: 225
+Iteration 225, lower bound = -105.95, time = 30.08s
+Test :-104.639119945
+Iteration: 226
+Iteration 226, lower bound = -105.91, time = 31.35s
+Test :-104.652038278
+Iteration: 227
+Iteration 227, lower bound = -105.86, time = 30.15s
+Test :-104.65023239
+Iteration: 228
+Iteration 228, lower bound = -105.85, time = 31.30s
+Test :-104.610184449
+Iteration: 229
+Iteration 229, lower bound = -105.82, time = 32.56s
+Test :-104.494879876
+Iteration: 230
+Iteration 230, lower bound = -105.82, time = 45.43s
+Test :-104.580209688
+Iteration: 231
+Iteration 231, lower bound = -105.82, time = 28.72s
+Test :-104.559662504
+Iteration: 232
+Iteration 232, lower bound = -105.81, time = 30.71s
+Test :-104.563342304
+Iteration: 233
+Iteration 233, lower bound = -105.79, time = 30.70s
+Test :-104.566752734
+Iteration: 234
+Iteration 234, lower bound = -105.75, time = 30.44s
+Test :-104.508245316
+Iteration: 235
+Iteration 235, lower bound = -105.73, time = 29.73s
+Test :-104.440602277
+Iteration: 236
+Iteration 236, lower bound = -105.72, time = 42.63s
+Test :-104.524629638
+Iteration: 237
+Iteration 237, lower bound = -105.72, time = 32.02s
+Test :-104.521897562
+Iteration: 238
+Iteration 238, lower bound = -105.69, time = 31.41s
+Test :-104.357898657
+Iteration: 239
+Iteration 239, lower bound = -105.65, time = 32.95s
+Test :-104.497378586
+Iteration: 240
+Iteration 240, lower bound = -105.64, time = 32.21s
+Test :-104.48046346
+Iteration: 241
+Iteration 241, lower bound = -105.62, time = 31.90s
+Test :-104.394385698
+Iteration: 242
+Iteration 242, lower bound = -105.59, time = 31.08s
+Test :-104.285606021
+Iteration: 243
+Iteration 243, lower bound = -105.59, time = 31.51s
+Test :-104.442787957
+Iteration: 244
+Iteration 244, lower bound = -105.56, time = 28.44s
+Test :-104.323972827
+Iteration: 245
+Iteration 245, lower bound = -105.56, time = 28.43s
+Test :-104.384278399
+Iteration: 246
+Iteration 246, lower bound = -105.55, time = 28.84s
+Test :-104.302818862
+Iteration: 247
+Iteration 247, lower bound = -105.55, time = 28.44s
+Test :-104.311934624
+Iteration: 248
+Iteration 248, lower bound = -105.51, time = 28.42s
+Test :-104.304541847
+Iteration: 249
+Iteration 249, lower bound = -105.50, time = 28.42s
+Test :-104.237530262
+Iteration: 250
+Iteration 250, lower bound = -105.47, time = 29.72s
+Test :-104.185687022
+Iteration: 251
+Iteration 251, lower bound = -105.48, time = 29.14s
+Test :-104.231173065
+Iteration: 252
+Iteration 252, lower bound = -105.48, time = 28.59s
+Test :-104.183907918
+Iteration: 253
+Iteration 253, lower bound = -105.46, time = 33.99s
+Test :-104.246532695
+Iteration: 254
+Iteration 254, lower bound = -105.41, time = 30.68s
+Test :-104.169822458
+Iteration: 255
+Iteration 255, lower bound = -105.40, time = 30.64s
+Test :-104.217860718
+Iteration: 256
+Iteration 256, lower bound = -105.39, time = 29.87s
+Test :-104.206166183
+Iteration: 257
+Iteration 257, lower bound = -105.38, time = 28.50s
+Test :-104.135236459
+Iteration: 258
+Iteration 258, lower bound = -105.37, time = 29.08s
+Test :-104.14095743
+Iteration: 259
+Iteration 259, lower bound = -105.34, time = 28.59s
+Test :-104.156253404
+Iteration: 260
+Iteration 260, lower bound = -105.32, time = 28.57s
+Test :-104.205065051
+Iteration: 261
+Iteration 261, lower bound = -105.32, time = 28.58s
+Test :-104.15546359
+Iteration: 262
+Iteration 262, lower bound = -105.31, time = 28.59s
+Test :-104.084103969
+Iteration: 263
+Iteration 263, lower bound = -105.32, time = 29.23s
+Test :-104.079835046
+Iteration: 264
+Iteration 264, lower bound = -105.25, time = 33.06s
+Test :-104.121422745
+Iteration: 265
+Iteration 265, lower bound = -105.25, time = 28.58s
+Test :-104.001072639
+Iteration: 266
+Iteration 266, lower bound = -105.24, time = 29.12s
+Test :-104.057552847
+Iteration: 267
+Iteration 267, lower bound = -105.26, time = 28.58s
+Test :-104.027079643
+Iteration: 268
+Iteration 268, lower bound = -105.22, time = 28.59s
+Test :-104.04991036
+Iteration: 269
+Iteration 269, lower bound = -105.17, time = 28.60s
+Test :-103.953783511
+Iteration: 270
+Iteration 270, lower bound = -105.21, time = 29.71s
+Test :-104.018030453
+Iteration: 271
+Iteration 271, lower bound = -105.17, time = 28.59s
+Test :-104.001680379
+Iteration: 272
+Iteration 272, lower bound = -105.20, time = 29.71s
+Test :-104.00419292
+Iteration: 273
+Iteration 273, lower bound = -105.16, time = 29.96s
+Test :-103.985721733
+Iteration: 274
+Iteration 274, lower bound = -105.14, time = 29.86s
+Test :-103.973694879
+Iteration: 275
+Iteration 275, lower bound = -105.13, time = 29.88s
+Test :-103.937255288
+Iteration: 276
+Iteration 276, lower bound = -105.12, time = 30.46s
+Test :-103.938485757
+Iteration: 277
+Iteration 277, lower bound = -105.06, time = 29.90s
+Test :-103.910002617
+Iteration: 278
+Iteration 278, lower bound = -105.07, time = 30.46s
+Test :-103.941791989
+Iteration: 279
+Iteration 279, lower bound = -105.04, time = 29.89s
+Test :-103.925985953
+Iteration: 280
+Iteration 280, lower bound = -105.06, time = 29.88s
+Test :-103.860020617
+Iteration: 281
+Iteration 281, lower bound = -105.04, time = 30.83s
+Test :-103.965376221
+Iteration: 282
+Iteration 282, lower bound = -105.00, time = 29.88s
+Test :-103.79432446
+Iteration: 283
+Iteration 283, lower bound = -105.00, time = 30.59s
+Test :-103.857413274
+Iteration: 284
+Iteration 284, lower bound = -105.02, time = 30.06s
+Test :-103.904072104
+Iteration: 285
+Iteration 285, lower bound = -104.96, time = 29.84s
+Test :-103.850396714
+Iteration: 286
+Iteration 286, lower bound = -104.94, time = 29.86s
+Test :-103.875924346
+Iteration: 287
+Iteration 287, lower bound = -104.95, time = 29.94s
+Test :-103.80384992
+Iteration: 288
+Iteration 288, lower bound = -104.91, time = 29.87s
+Test :-103.794340067
+Iteration: 289
+Iteration 289, lower bound = -104.93, time = 29.85s
+Test :-103.810569564
+Iteration: 290
+Iteration 290, lower bound = -104.92, time = 29.87s
+Test :-103.74491985
+Iteration: 291
+Iteration 291, lower bound = -104.91, time = 30.71s
+Test :-103.780046656
+Iteration: 292
+Iteration 292, lower bound = -104.92, time = 30.17s
+Test :-103.74535264
+Iteration: 293
+Iteration 293, lower bound = -104.86, time = 30.20s
+Test :-103.726919257
+Iteration: 294
+Iteration 294, lower bound = -104.84, time = 30.46s
+Test :-103.705950502
+Iteration: 295
+Iteration 295, lower bound = -104.86, time = 30.41s
+Test :-103.690309444
+Iteration: 296
+Iteration 296, lower bound = -104.82, time = 30.47s
+Test :-103.664781109
+Iteration: 297
+Iteration 297, lower bound = -104.84, time = 31.71s
+Test :-103.766495043
+Iteration: 298
+Iteration 298, lower bound = -104.82, time = 29.87s
+Test :-103.68746397
+Iteration: 299
+Iteration 299, lower bound = -104.80, time = 29.93s
+Test :-103.735983795
+Iteration: 300
+Iteration 300, lower bound = -104.79, time = 30.01s
+Test :-103.651572807
+Iteration: 301
+Iteration 301, lower bound = -104.82, time = 30.41s
+Test :-103.659440405
+Iteration: 302
+Iteration 302, lower bound = -104.77, time = 29.87s
+Test :-103.698707415
+Iteration: 303
+Iteration 303, lower bound = -104.73, time = 29.81s
+Test :-103.589399471
+Iteration: 304
+Iteration 304, lower bound = -104.76, time = 30.37s
+Test :-103.618507743
+Iteration: 305
+Iteration 305, lower bound = -104.75, time = 29.83s
+Test :-103.647399023
+Iteration: 306
+Iteration 306, lower bound = -104.76, time = 29.81s
+Test :-103.6044578
+Iteration: 307
+Iteration 307, lower bound = -104.69, time = 29.93s
+Test :-103.592814576
+Iteration: 308
+Iteration 308, lower bound = -104.68, time = 29.86s
+Test :-103.629633411
+Iteration: 309
+Iteration 309, lower bound = -104.68, time = 29.86s
+Test :-103.597271851
+Iteration: 310
+Iteration 310, lower bound = -104.67, time = 29.83s
+Test :-103.602686117
+Iteration: 311
+Iteration 311, lower bound = -104.70, time = 29.85s
+Test :-103.481600425
+Iteration: 312
+Iteration 312, lower bound = -104.68, time = 30.48s
+Test :-103.573925923
+Iteration: 313
+Iteration 313, lower bound = -104.65, time = 29.87s
+Test :-103.558136481
+Iteration: 314
+Iteration 314, lower bound = -104.63, time = 29.91s
+Test :-103.572554056
+Iteration: 315
+Iteration 315, lower bound = -104.61, time = 29.87s
+Test :-103.498029494
+Iteration: 316
+Iteration 316, lower bound = -104.62, time = 29.83s
+Test :-103.536250964
+Iteration: 317
+Iteration 317, lower bound = -104.60, time = 29.89s
+Test :-103.53631302
+Iteration: 318
+Iteration 318, lower bound = -104.58, time = 29.82s
+Test :-103.440468408
+Iteration: 319
+Iteration 319, lower bound = -104.59, time = 30.43s
+Test :-103.484591304
+Iteration: 320
+Iteration 320, lower bound = -104.58, time = 29.83s
+Test :-103.536492101
+Iteration: 321
+Iteration 321, lower bound = -104.57, time = 29.89s
+Test :-103.472850009
+Iteration: 322
+Iteration 322, lower bound = -104.56, time = 29.96s
+Test :-103.449238139
+Iteration: 323
+Iteration 323, lower bound = -104.55, time = 29.88s
+Test :-103.476885304
+Iteration: 324
+Iteration 324, lower bound = -104.53, time = 30.01s
+Test :-103.446692601
+Iteration: 325
+Iteration 325, lower bound = -104.51, time = 29.93s
+Test :-103.395455787
+Iteration: 326
+Iteration 326, lower bound = -104.50, time = 31.48s
+Test :-103.473888046
+Iteration: 327
+Iteration 327, lower bound = -104.49, time = 29.81s
+Test :-103.358821804
+Iteration: 328
+Iteration 328, lower bound = -104.46, time = 31.01s
+Test :-103.365901855
+Iteration: 329
+Iteration 329, lower bound = -104.50, time = 29.88s
+Test :-103.447609443
+Iteration: 330
+Iteration 330, lower bound = -104.48, time = 29.84s
+Test :-103.405989012
+Iteration: 331
+Iteration 331, lower bound = -104.43, time = 29.86s
+Test :-103.432786283
+Iteration: 332
+Iteration 332, lower bound = -104.45, time = 29.82s
+Test :-103.320641409
+Iteration: 333
+Iteration 333, lower bound = -104.43, time = 30.38s
+Test :-103.411485555
+Iteration: 334
+Iteration 334, lower bound = -104.45, time = 29.89s
+Test :-103.298828225
+Iteration: 335
+Iteration 335, lower bound = -104.39, time = 30.68s
+Test :-103.363967509
+Iteration: 336
+Iteration 336, lower bound = -104.40, time = 29.93s
+Test :-103.322509001
+Iteration: 337
+Iteration 337, lower bound = -104.35, time = 29.88s
+Test :-103.399666229
+Iteration: 338
+Iteration 338, lower bound = -104.38, time = 29.85s
+Test :-103.281317291
+Iteration: 339
+Iteration 339, lower bound = -104.40, time = 30.39s
+Test :-103.316761378
+Iteration: 340
+Iteration 340, lower bound = -104.37, time = 29.86s
+Test :-103.289021134
+Iteration: 341
+Iteration 341, lower bound = -104.40, time = 29.85s
+Test :-103.327861495
+Iteration: 342
+Iteration 342, lower bound = -104.35, time = 29.85s
+Test :-103.259426189
+Iteration: 343
+Iteration 343, lower bound = -104.34, time = 30.51s
+Test :-103.243178094
+Iteration: 344
+Iteration 344, lower bound = -104.34, time = 30.71s
+Test :-103.302833707
+Iteration: 345
+Iteration 345, lower bound = -104.30, time = 29.86s
+Test :-103.228547778
+Iteration: 346
+Iteration 346, lower bound = -104.34, time = 30.39s
+Test :-103.262333229
+Iteration: 347
+Iteration 347, lower bound = -104.29, time = 29.90s
+Test :-103.290929618
+Iteration: 348
+Iteration 348, lower bound = -104.30, time = 29.92s
+Test :-103.26908969
+Iteration: 349
+Iteration 349, lower bound = -104.30, time = 29.94s
+Test :-103.237098255
+Iteration: 350
+Iteration 350, lower bound = -104.24, time = 29.97s
+Test :-103.204962786
+Iteration: 351
+Iteration 351, lower bound = -104.24, time = 30.39s
+Test :-103.182838958
+Iteration: 352
+Iteration 352, lower bound = -104.22, time = 30.43s
+Test :-103.187708977
+Iteration: 353
+Iteration 353, lower bound = -104.23, time = 29.88s
+Test :-103.262350564
+Iteration: 354
+Iteration 354, lower bound = -104.23, time = 29.89s
+Test :-103.296509041
+Iteration: 355
+Iteration 355, lower bound = -104.22, time = 29.88s
+Test :-103.197247896
+Iteration: 356
+Iteration 356, lower bound = -104.20, time = 29.86s
+Test :-103.169257721
+Iteration: 357
+Iteration 357, lower bound = -104.21, time = 30.46s
+Test :-103.258211274
+Iteration: 358
+Iteration 358, lower bound = -104.16, time = 29.94s
+Test :-103.18842922
+Iteration: 359
+Iteration 359, lower bound = -104.19, time = 29.84s
+Test :-103.118606599
+Iteration: 360
+Iteration 360, lower bound = -104.19, time = 30.86s
+Test :-103.127153992
+Iteration: 361
+Iteration 361, lower bound = -104.18, time = 29.95s
+Test :-103.185114449
+Iteration: 362
+Iteration 362, lower bound = -104.17, time = 29.94s
+Test :-103.163274595
+Iteration: 363
+Iteration 363, lower bound = -104.18, time = 29.87s
+Test :-103.097113437
+Iteration: 364
+Iteration 364, lower bound = -104.16, time = 30.41s
+Test :-103.049283118
+Iteration: 365
+Iteration 365, lower bound = -104.14, time = 30.35s
+Test :-103.190888485
+Iteration: 366
+Iteration 366, lower bound = -104.11, time = 29.91s
+Test :-103.098420305
+Iteration: 367
+Iteration 367, lower bound = -104.11, time = 29.81s
+Test :-103.072264865
+Iteration: 368
+Iteration 368, lower bound = -104.13, time = 29.89s
+Test :-103.040074253
+Iteration: 369
+Iteration 369, lower bound = -104.14, time = 30.57s
+Test :-103.017882129
+Iteration: 370
+Iteration 370, lower bound = -104.10, time = 30.39s
+Test :-103.136586262
+Iteration: 371
+Iteration 371, lower bound = -104.08, time = 29.89s
+Test :-103.057008214
+Iteration: 372
+Iteration 372, lower bound = -104.08, time = 29.85s
+Test :-103.142972859
+Iteration: 373
+Iteration 373, lower bound = -104.07, time = 29.85s
+Test :-103.032548635
+Iteration: 374
+Iteration 374, lower bound = -104.03, time = 29.85s
+Test :-103.00663979
+Iteration: 375
+Iteration 375, lower bound = -104.03, time = 30.59s
+Test :-103.022503742
+Iteration: 376
+Iteration 376, lower bound = -104.05, time = 29.86s
+Test :-103.10133218
+Iteration: 377
+Iteration 377, lower bound = -104.06, time = 29.88s
+Test :-102.951708305
+Iteration: 378
+Iteration 378, lower bound = -104.05, time = 30.86s
+Test :-103.004036599
+Iteration: 379
+Iteration 379, lower bound = -104.01, time = 29.85s
+Test :-103.010600905
+Iteration: 380
+Iteration 380, lower bound = -104.01, time = 29.82s
+Test :-103.018172085
+Iteration: 381
+Iteration 381, lower bound = -104.00, time = 29.84s
+Test :-102.977660292
+Iteration: 382
+Iteration 382, lower bound = -103.98, time = 29.81s
+Test :-102.98986444
+Iteration: 383
+Iteration 383, lower bound = -103.98, time = 29.80s
+Test :-102.958901926
+Iteration: 384
+Iteration 384, lower bound = -103.97, time = 29.83s
+Test :-102.933534175
+Iteration: 385
+Iteration 385, lower bound = -103.94, time = 30.44s
+Test :-102.916942127
+Iteration: 386
+Iteration 386, lower bound = -103.96, time = 30.42s
+Test :-102.960897012
+Iteration: 387
+Iteration 387, lower bound = -103.96, time = 29.87s
+Test :-102.93202305
+Iteration: 388
+Iteration 388, lower bound = -103.94, time = 29.94s
+Test :-102.937550586
+Iteration: 389
+Iteration 389, lower bound = -103.92, time = 29.86s
+Test :-102.8882082
+Iteration: 390
+Iteration 390, lower bound = -103.94, time = 30.78s
+Test :-102.938634184
+Iteration: 391
+Iteration 391, lower bound = -103.93, time = 30.31s
+Test :-102.87651574
+Iteration: 392
+Iteration 392, lower bound = -103.92, time = 35.41s
+Test :-102.897155625
+Iteration: 393
+Iteration 393, lower bound = -103.91, time = 30.12s
+Test :-102.892107313
+Iteration: 394
+Iteration 394, lower bound = -103.88, time = 29.87s
+Test :-102.926125686
+Iteration: 395
+Iteration 395, lower bound = -103.89, time = 29.85s
+Test :-102.903684889
+Iteration: 396
+Iteration 396, lower bound = -103.86, time = 29.84s
+Test :-102.856266049
+Iteration: 397
+Iteration 397, lower bound = -103.89, time = 30.37s
+Test :-102.915597505
+Iteration: 398
+Iteration 398, lower bound = -103.87, time = 29.83s
+Test :-102.844454613
+Iteration: 399
+Iteration 399, lower bound = -103.85, time = 30.40s
+Test :-102.844382057
+Iteration: 400
+Iteration 400, lower bound = -103.87, time = 30.42s
+Test :-102.845118069
+Iteration: 401
+Iteration 401, lower bound = -103.86, time = 29.84s
+Test :-102.829604889
+Iteration: 402
+Iteration 402, lower bound = -103.85, time = 30.49s
+Test :-102.835159295
+Iteration: 403
+Iteration 403, lower bound = -103.83, time = 29.81s
+Test :-102.873129148
+Iteration: 404
+Iteration 404, lower bound = -103.83, time = 29.82s
+Test :-102.81154598
+Iteration: 405
+Iteration 405, lower bound = -103.83, time = 30.46s
+Test :-102.801886868
+Iteration: 406
+Iteration 406, lower bound = -103.78, time = 30.39s
+Test :-102.82734665
+Iteration: 407
+Iteration 407, lower bound = -103.78, time = 29.84s
+Test :-102.836153707
+Iteration: 408
+Iteration 408, lower bound = -103.81, time = 29.91s
+Test :-102.790614766
+Iteration: 409
+Iteration 409, lower bound = -103.79, time = 30.40s
+Test :-102.821955889
+Iteration: 410
+Iteration 410, lower bound = -103.80, time = 29.90s
+Test :-102.81773867
+Iteration: 411
+Iteration 411, lower bound = -103.81, time = 29.83s
+Test :-102.702828475
+Iteration: 412
+Iteration 412, lower bound = -103.74, time = 30.93s
+Test :-102.831313307
+Iteration: 413
+Iteration 413, lower bound = -103.76, time = 29.79s
+Test :-102.802660579
+Iteration: 414
+Iteration 414, lower bound = -103.72, time = 29.90s
+Test :-102.799939043
+Iteration: 415
+Iteration 415, lower bound = -103.78, time = 29.85s
+Test :-102.73915243
+Iteration: 416
+Iteration 416, lower bound = -103.74, time = 29.81s
+Test :-102.749204285
+Iteration: 417
+Iteration 417, lower bound = -103.72, time = 29.82s
+Test :-102.732159018
+Iteration: 418
+Iteration 418, lower bound = -103.71, time = 29.80s
+Test :-102.723469686
+Iteration: 419
+Iteration 419, lower bound = -103.70, time = 29.84s
+Test :-102.743916718
+Iteration: 420
+Iteration 420, lower bound = -103.71, time = 29.79s
+Test :-102.74334087
+Iteration: 421
+Iteration 421, lower bound = -103.66, time = 29.82s
+Test :-102.759362022
+Iteration: 422
+Iteration 422, lower bound = -103.69, time = 29.82s
+Test :-102.655963147
+Iteration: 423
+Iteration 423, lower bound = -103.64, time = 30.43s
+Test :-102.696848806
+Iteration: 424
+Iteration 424, lower bound = -103.68, time = 29.90s
+Test :-102.550586849
+Iteration: 425
+Iteration 425, lower bound = -103.65, time = 30.44s
+Test :-102.672891921
+Iteration: 426
+Iteration 426, lower bound = -103.63, time = 29.80s
+Test :-102.744004336
+Iteration: 427
+Iteration 427, lower bound = -103.66, time = 29.86s
+Test :-102.677702831
+Iteration: 428
+Iteration 428, lower bound = -103.63, time = 29.86s
+Test :-102.805879882
+Iteration: 429
+Iteration 429, lower bound = -103.66, time = 29.87s
+Test :-102.723926438
+Iteration: 430
+Iteration 430, lower bound = -103.65, time = 29.89s
+Test :-102.677537216
+Iteration: 431
+Iteration 431, lower bound = -103.59, time = 29.98s
+Test :-102.653102963
+Iteration: 432
+Iteration 432, lower bound = -103.63, time = 29.86s
+Test :-102.680442062
+Iteration: 433
+Iteration 433, lower bound = -103.61, time = 29.95s
+Test :-102.665311976
+Iteration: 434
+Iteration 434, lower bound = -103.61, time = 29.81s
+Test :-102.693166324
+Iteration: 435
+Iteration 435, lower bound = -103.59, time = 29.85s
+Test :-102.626614438
+Iteration: 436
+Iteration 436, lower bound = -103.60, time = 29.85s
+Test :-102.672228947
+Iteration: 437
+Iteration 437, lower bound = -103.58, time = 29.84s
+Test :-102.623722089
+Iteration: 438
+Iteration 438, lower bound = -103.59, time = 29.83s
+Test :-102.631817447
+Iteration: 439
+Iteration 439, lower bound = -103.58, time = 29.89s
+Test :-102.582733038
+Iteration: 440
+Iteration 440, lower bound = -103.56, time = 29.87s
+Test :-102.632625918
+Iteration: 441
+Iteration 441, lower bound = -103.52, time = 29.90s
+Test :-102.610144068
+Iteration: 442
+Iteration 442, lower bound = -103.52, time = 29.89s
+Test :-102.557035894
+Iteration: 443
+Iteration 443, lower bound = -103.56, time = 29.86s
+Test :-102.670245528
+Iteration: 444
+Iteration 444, lower bound = -103.56, time = 29.83s
+Test :-102.634478284
+Iteration: 445
+Iteration 445, lower bound = -103.54, time = 29.77s
+Test :-102.610395556
+Iteration: 446
+Iteration 446, lower bound = -103.52, time = 28.55s
+Test :-102.572242696
+Iteration: 447
+Iteration 447, lower bound = -103.54, time = 28.42s
+Test :-102.579507213
+Iteration: 448
+Iteration 448, lower bound = -103.52, time = 28.88s
+Test :-102.625104295
+Iteration: 449
+Iteration 449, lower bound = -103.52, time = 28.93s
+Test :-102.574605069
+Iteration: 450
+Iteration 450, lower bound = -103.49, time = 28.47s
+Test :-102.581480866
+Iteration: 451
+Iteration 451, lower bound = -103.47, time = 29.17s
+Test :-102.580564781
+Iteration: 452
+Iteration 452, lower bound = -103.49, time = 29.11s
+Test :-102.530158467
+Iteration: 453
+Iteration 453, lower bound = -103.48, time = 29.16s
+Test :-102.482931777
+Iteration: 454
+Iteration 454, lower bound = -103.49, time = 29.02s
+Test :-102.556950636
+Iteration: 455
+Iteration 455, lower bound = -103.45, time = 29.24s
+Test :-102.539574264
+Iteration: 456
+Iteration 456, lower bound = -103.51, time = 29.24s
+Test :-102.502862828
+Iteration: 457
+Iteration 457, lower bound = -103.47, time = 28.85s
+Test :-102.533376075
+Iteration: 458
+Iteration 458, lower bound = -103.45, time = 28.83s
+Test :-102.56675541
+Iteration: 459
+Iteration 459, lower bound = -103.46, time = 28.43s
+Test :-102.447424463
+Iteration: 460
+Iteration 460, lower bound = -103.45, time = 28.94s
+Test :-102.553797494
+Iteration: 461
+Iteration 461, lower bound = -103.44, time = 28.43s
+Test :-102.528302964
+Iteration: 462
+Iteration 462, lower bound = -103.42, time = 29.25s
+Test :-102.500729625
+Iteration: 463
+Iteration 463, lower bound = -103.42, time = 28.39s
+Test :-102.428499399
+Iteration: 464
+Iteration 464, lower bound = -103.40, time = 29.88s
+Test :-102.526486765
+Iteration: 465
+Iteration 465, lower bound = -103.44, time = 30.18s
+Test :-102.497293135
+Iteration: 466
+Iteration 466, lower bound = -103.39, time = 28.49s
+Test :-102.518847068
+Iteration: 467
+Iteration 467, lower bound = -103.41, time = 28.41s
+Test :-102.468704992
+Iteration: 468
+Iteration 468, lower bound = -103.41, time = 28.52s
+Test :-102.443041031
+Iteration: 469
+Iteration 469, lower bound = -103.39, time = 28.40s
+Test :-102.436177
+Iteration: 470
+Iteration 470, lower bound = -103.38, time = 28.41s
+Test :-102.405769247
+Iteration: 471
+Iteration 471, lower bound = -103.39, time = 29.11s
+Test :-102.496631265
+Iteration: 472
+Iteration 472, lower bound = -103.36, time = 28.55s
+Test :-102.468863378
+Iteration: 473
+Iteration 473, lower bound = -103.38, time = 28.55s
+Test :-102.457083461
+Iteration: 474
+Iteration 474, lower bound = -103.36, time = 28.54s
+Test :-102.476167964
+Iteration: 475
+Iteration 475, lower bound = -103.34, time = 28.57s
+Test :-102.540923052
+Iteration: 476
+Iteration 476, lower bound = -103.36, time = 28.57s
+Test :-102.449265192
+Iteration: 477
+Iteration 477, lower bound = -103.31, time = 29.80s
+Test :-102.414033092
+Iteration: 478
+Iteration 478, lower bound = -103.34, time = 29.41s
+Test :-102.447528357
+Iteration: 479
+Iteration 479, lower bound = -103.32, time = 28.56s
+Test :-102.403767552
+Iteration: 480
+Iteration 480, lower bound = -103.31, time = 29.07s
+Test :-102.36589823
+Iteration: 481
+Iteration 481, lower bound = -103.32, time = 31.15s
+Test :-102.427137244
+Iteration: 482
+Iteration 482, lower bound = -103.32, time = 28.43s
+Test :-102.418768657
+Iteration: 483
+Iteration 483, lower bound = -103.29, time = 28.41s
+Test :-102.371417327
+Iteration: 484
+Iteration 484, lower bound = -103.29, time = 28.41s
+Test :-102.384090402
+Iteration: 485
+Iteration 485, lower bound = -103.32, time = 28.40s
+Test :-102.435454797
+Iteration: 486
+Iteration 486, lower bound = -103.29, time = 28.37s
+Test :-102.368308488
+Iteration: 487
+Iteration 487, lower bound = -103.28, time = 28.37s
+Test :-102.32349756
+Iteration: 488
+Iteration 488, lower bound = -103.26, time = 29.01s
+Test :-102.375064479
+Iteration: 489
+Iteration 489, lower bound = -103.29, time = 28.47s
+Test :-102.406374446
+Iteration: 490
+Iteration 490, lower bound = -103.27, time = 28.38s
+Test :-102.392453744
+Iteration: 491
+Iteration 491, lower bound = -103.28, time = 28.47s
+Test :-102.317344614
+Iteration: 492
+Iteration 492, lower bound = -103.24, time = 29.58s
+Test :-102.302371675
+Iteration: 493
+Iteration 493, lower bound = -103.24, time = 29.03s
+Test :-102.341192399
+Iteration: 494
+Iteration 494, lower bound = -103.21, time = 28.56s
+Test :-102.357888608
+Iteration: 495
+Iteration 495, lower bound = -103.25, time = 28.59s
+Test :-102.364772476
+Iteration: 496
+Iteration 496, lower bound = -103.23, time = 28.59s
+Test :-102.350273863
+Iteration: 497
+Iteration 497, lower bound = -103.22, time = 28.62s
+Test :-102.3807008
+Iteration: 498
+Iteration 498, lower bound = -103.17, time = 28.60s
+Test :-102.385153719
+Iteration: 499
+Iteration 499, lower bound = -103.21, time = 28.55s
+Test :-102.359865248
+Iteration: 500
+Iteration 500, lower bound = -103.20, time = 28.56s
+Test :-102.289522971
+Iteration: 501
+Iteration 501, lower bound = -103.20, time = 29.36s
+Test :-102.31305434
+Iteration: 502
+Iteration 502, lower bound = -103.17, time = 28.39s
+Test :-102.296484683
+Iteration: 503
+Iteration 503, lower bound = -103.21, time = 28.37s
+Test :-102.311661815
+Iteration: 504
+Iteration 504, lower bound = -103.18, time = 28.38s
+Test :-102.236408107
+Iteration: 505
+Iteration 505, lower bound = -103.20, time = 28.90s
+Test :-102.311638303
+Iteration: 506
+Iteration 506, lower bound = -103.16, time = 28.37s
+Test :-102.326887341
+Iteration: 507
+Iteration 507, lower bound = -103.19, time = 28.37s
+Test :-102.289202858
+Iteration: 508
+Iteration 508, lower bound = -103.15, time = 28.38s
+Test :-102.203898167
+Iteration: 509
+Iteration 509, lower bound = -103.16, time = 29.44s
+Test :-102.289970702
+Iteration: 510
+Iteration 510, lower bound = -103.17, time = 30.39s
+Test :-102.281806727
+Iteration: 511
+Iteration 511, lower bound = -103.15, time = 28.85s
+Test :-102.200532589
+Iteration: 512
+Iteration 512, lower bound = -103.17, time = 30.42s
+Test :-102.365315979
+Iteration: 513
+Iteration 513, lower bound = -103.12, time = 29.96s
+Test :-102.299465855
+Iteration: 514
+Iteration 514, lower bound = -103.15, time = 30.10s
+Test :-102.262103061
+Iteration: 515
+Iteration 515, lower bound = -103.10, time = 29.78s
+Test :-102.170062836
+Iteration: 516
+Iteration 516, lower bound = -103.13, time = 30.31s
+Test :-102.33309605
+Iteration: 517
+Iteration 517, lower bound = -103.10, time = 29.77s
+Test :-102.170983291
+Iteration: 518
+Iteration 518, lower bound = -103.16, time = 29.84s
+Test :-102.302965083
+Iteration: 519
+Iteration 519, lower bound = -103.11, time = 29.82s
+Test :-102.24102152
+Iteration: 520
+Iteration 520, lower bound = -103.09, time = 29.86s
+Test :-102.133153018
+Iteration: 521
+Iteration 521, lower bound = -103.12, time = 30.40s
+Test :-102.235666778
+Iteration: 522
+Iteration 522, lower bound = -103.07, time = 29.78s
+Test :-102.186022069
+Iteration: 523
+Iteration 523, lower bound = -103.10, time = 29.81s
+Test :-102.265428068
+Iteration: 524
+Iteration 524, lower bound = -103.08, time = 29.79s
+Test :-102.199387465
+Iteration: 525
+Iteration 525, lower bound = -103.10, time = 29.77s
+Test :-102.176723077
+Iteration: 526
+Iteration 526, lower bound = -103.09, time = 29.78s
+Test :-102.212487512
+Iteration: 527
+Iteration 527, lower bound = -103.05, time = 29.75s
+Test :-102.267368155
+Iteration: 528
+Iteration 528, lower bound = -103.07, time = 29.73s
+Test :-102.058098739
+Iteration: 529
+Iteration 529, lower bound = -103.04, time = 30.38s
+Test :-102.177835185
+Iteration: 530
+Iteration 530, lower bound = -103.07, time = 28.96s
+Test :-102.228369007
+Iteration: 531
+Iteration 531, lower bound = -103.02, time = 28.38s
+Test :-102.204598285
+Iteration: 532
+Iteration 532, lower bound = -103.09, time = 28.38s
+Test :-102.137547453
+Iteration: 533
+Iteration 533, lower bound = -103.06, time = 28.37s
+Test :-102.17401096
+Iteration: 534
+Iteration 534, lower bound = -103.04, time = 28.37s
+Test :-102.163614995
+Iteration: 535
+Iteration 535, lower bound = -103.02, time = 28.37s
+Test :-102.179987024
+Iteration: 536
+Iteration 536, lower bound = -103.02, time = 28.38s
+Test :-102.209363651
+Iteration: 537
+Iteration 537, lower bound = -103.04, time = 28.37s
+Test :-102.144154147
+Iteration: 538
+Iteration 538, lower bound = -103.01, time = 28.37s
+Test :-102.147278368
+Iteration: 539
+Iteration 539, lower bound = -103.00, time = 28.37s
+Test :-102.156172604
+Iteration: 540
+Iteration 540, lower bound = -103.02, time = 28.37s
+Test :-102.105346975
+Iteration: 541
+Iteration 541, lower bound = -102.98, time = 28.37s
+Test :-102.150514966
+Iteration: 542
+Iteration 542, lower bound = -102.99, time = 28.37s
+Test :-102.090454922
+Iteration: 543
+Iteration 543, lower bound = -102.99, time = 28.38s
+Test :-102.145285457
+Iteration: 544
+Iteration 544, lower bound = -102.96, time = 28.39s
+Test :-102.148519621
+Iteration: 545
+Iteration 545, lower bound = -102.99, time = 28.42s
+Test :-102.095725392
+Iteration: 546
+Iteration 546, lower bound = -102.97, time = 28.41s
+Test :-102.117388309
+Iteration: 547
+Iteration 547, lower bound = -102.99, time = 28.44s
+Test :-102.147604982
+Iteration: 548
+Iteration 548, lower bound = -102.98, time = 28.41s
+Test :-102.108410024
+Iteration: 549
+Iteration 549, lower bound = -102.96, time = 28.43s
+Test :-102.136444451
+Iteration: 550
+Iteration 550, lower bound = -102.94, time = 28.41s
+Test :-102.118456924
+Iteration: 551
+Iteration 551, lower bound = -102.96, time = 28.43s
+Test :-102.104321067
+Iteration: 552
+Iteration 552, lower bound = -102.98, time = 28.44s
+Test :-102.08143349
+Iteration: 553
+Iteration 553, lower bound = -102.97, time = 28.40s
+Test :-102.088826785
+Iteration: 554
+Iteration 554, lower bound = -102.93, time = 28.44s
+Test :-102.033828267
+Iteration: 555
+Iteration 555, lower bound = -102.96, time = 30.05s
+Test :-102.064703541
+Iteration: 556
+Iteration 556, lower bound = -102.91, time = 28.59s
+Test :-102.098565598
+Iteration: 557
+Iteration 557, lower bound = -102.91, time = 28.55s
+Test :-102.094263358
+Iteration: 558
+Iteration 558, lower bound = -102.91, time = 28.57s
+Test :-102.078998378
+Iteration: 559
+Iteration 559, lower bound = -102.96, time = 28.56s
+Test :-102.04956133
+Iteration: 560
+Iteration 560, lower bound = -102.93, time = 28.60s
+Test :-102.040380888
+Iteration: 561
+Iteration 561, lower bound = -102.91, time = 28.59s
+Test :-102.117379982
+Iteration: 562
+Iteration 562, lower bound = -102.91, time = 28.55s
+Test :-102.052211064
+Iteration: 563
+Iteration 563, lower bound = -102.91, time = 28.55s
+Test :-102.102503833
+Iteration: 564
+Iteration 564, lower bound = -102.87, time = 28.57s
+Test :-102.000464958
+Iteration: 565
+Iteration 565, lower bound = -102.90, time = 29.12s
+Test :-102.043084671
+Iteration: 566
+Iteration 566, lower bound = -102.93, time = 28.57s
+Test :-101.989021473
+Iteration: 567
+Iteration 567, lower bound = -102.91, time = 28.96s
+Test :-101.958535976
+Iteration: 568
+Iteration 568, lower bound = -102.87, time = 30.04s
+Test :-102.102841408
+Iteration: 569
+Iteration 569, lower bound = -102.87, time = 28.55s
+Test :-102.008849662
+Iteration: 570
+Iteration 570, lower bound = -102.87, time = 28.55s
+Test :-102.063252708
+Iteration: 571
+Iteration 571, lower bound = -102.86, time = 28.56s
+Test :-102.013773831
+Iteration: 572
+Iteration 572, lower bound = -102.81, time = 28.54s
+Test :-102.00560042
+Iteration: 573
+Iteration 573, lower bound = -102.84, time = 28.54s
+Test :-101.998034928
+Iteration: 574
+Iteration 574, lower bound = -102.85, time = 28.55s
+Test :-102.050630004
+Iteration: 575
+Iteration 575, lower bound = -102.85, time = 28.54s
+Test :-101.999669518
+Iteration: 576
+Iteration 576, lower bound = -102.86, time = 28.54s
+Test :-102.068497713
+Iteration: 577
+Iteration 577, lower bound = -102.82, time = 28.55s
+Test :-101.999635415
+Iteration: 578
+Iteration 578, lower bound = -102.83, time = 28.55s
+Test :-102.04179184
+Iteration: 579
+Iteration 579, lower bound = -102.82, time = 28.56s
+Test :-102.05114573
+Iteration: 580
+Iteration 580, lower bound = -102.79, time = 28.55s
+Test :-102.013821147
+Iteration: 581
+Iteration 581, lower bound = -102.83, time = 28.55s
+Test :-101.990036694
+Iteration: 582
+Iteration 582, lower bound = -102.84, time = 28.55s
+Test :-102.012440137
+Iteration: 583
+Iteration 583, lower bound = -102.79, time = 28.56s
+Test :-101.961522741
+Iteration: 584
+Iteration 584, lower bound = -102.79, time = 28.55s
+Test :-102.021345755
+Iteration: 585
+Iteration 585, lower bound = -102.80, time = 28.55s
+Test :-101.9663319
+Iteration: 586
+Iteration 586, lower bound = -102.78, time = 28.59s
+Test :-101.928436021
+Iteration: 587
+Iteration 587, lower bound = -102.80, time = 35.64s
+Test :-101.970362705
+Iteration: 588
+Iteration 588, lower bound = -102.76, time = 28.38s
+Test :-102.02355131
+Iteration: 589
+Iteration 589, lower bound = -102.80, time = 28.40s
+Test :-101.964262213
+Iteration: 590
+Iteration 590, lower bound = -102.75, time = 28.39s
+Test :-101.906716905
+Iteration: 591
+Iteration 591, lower bound = -102.79, time = 28.91s
+Test :-101.925386033
+Iteration: 592
+Iteration 592, lower bound = -102.76, time = 28.37s
+Test :-101.938313524
+Iteration: 593
+Iteration 593, lower bound = -102.77, time = 28.37s
+Test :-101.938533406
+Iteration: 594
+Iteration 594, lower bound = -102.78, time = 28.37s
+Test :-101.885780435
+Iteration: 595
+Iteration 595, lower bound = -102.75, time = 29.11s
+Test :-101.839612895
+Iteration: 596
+Iteration 596, lower bound = -102.78, time = 30.51s
+Test :-101.927633151
+Iteration: 597
+Iteration 597, lower bound = -102.72, time = 28.42s
+Test :-101.922553956
+Iteration: 598
+Iteration 598, lower bound = -102.75, time = 28.39s
+Test :-101.828245512
+Iteration: 599
+Iteration 599, lower bound = -102.74, time = 28.89s
+Test :-101.937334967
+Iteration: 600
+Iteration 600, lower bound = -102.77, time = 28.38s
+Test :-101.988761498
+Iteration: 601
+Iteration 601, lower bound = -102.76, time = 28.38s
+Test :-101.899747128
+Iteration: 602
+Iteration 602, lower bound = -102.71, time = 28.37s
+Test :-101.882334562
+Iteration: 603
+Iteration 603, lower bound = -102.74, time = 28.38s
+Test :-101.871721064
+Iteration: 604
+Iteration 604, lower bound = -102.72, time = 28.39s
+Test :-101.908547438
+Iteration: 605
+Iteration 605, lower bound = -102.70, time = 28.41s
+Test :-101.919320566
+Iteration: 606
+Iteration 606, lower bound = -102.73, time = 28.40s
+Test :-101.923410224
+Iteration: 607
+Iteration 607, lower bound = -102.69, time = 28.39s
+Test :-101.861282162
+Iteration: 608
+Iteration 608, lower bound = -102.71, time = 28.44s
+Test :-101.979224106
+Iteration: 609
+Iteration 609, lower bound = -102.70, time = 28.44s
+Test :-101.879474763
+Iteration: 610
+Iteration 610, lower bound = -102.69, time = 28.43s
+Test :-101.941008314
+Iteration: 611
+Iteration 611, lower bound = -102.72, time = 28.38s
+Test :-101.842694032
+Iteration: 612
+Iteration 612, lower bound = -102.71, time = 28.38s
+Test :-101.929556852
+Iteration: 613
+Iteration 613, lower bound = -102.66, time = 28.38s
+Test :-101.919852513
+Iteration: 614
+Iteration 614, lower bound = -102.68, time = 28.39s
+Test :-101.880717025
+Iteration: 615
+Iteration 615, lower bound = -102.65, time = 28.38s
+Test :-101.847532704
+Iteration: 616
+Iteration 616, lower bound = -102.67, time = 28.37s
+Test :-101.782808
+Iteration: 617
+Iteration 617, lower bound = -102.64, time = 29.02s
+Test :-101.888851939
+Iteration: 618
+Iteration 618, lower bound = -102.67, time = 28.50s
+Test :-101.874813732
+Iteration: 619
+Iteration 619, lower bound = -102.68, time = 28.52s
+Test :-101.867301953
+Iteration: 620
+Iteration 620, lower bound = -102.65, time = 28.53s
+Test :-101.888820558
+Iteration: 621
+Iteration 621, lower bound = -102.65, time = 28.53s
+Test :-101.86944688
+Iteration: 622
+Iteration 622, lower bound = -102.65, time = 28.52s
+Test :-101.903867777
+Iteration: 623
+Iteration 623, lower bound = -102.65, time = 28.58s
+Test :-101.771869824
+Iteration: 624
+Iteration 624, lower bound = -102.65, time = 29.18s
+Test :-101.841356445
+Iteration: 625
+Iteration 625, lower bound = -102.64, time = 28.59s
+Test :-101.817519747
+Iteration: 626
+Iteration 626, lower bound = -102.63, time = 28.56s
+Test :-101.818028115
+Iteration: 627
+Iteration 627, lower bound = -102.64, time = 28.60s
+Test :-101.801606766
+Iteration: 628
+Iteration 628, lower bound = -102.62, time = 28.54s
+Test :-101.829392576
+Iteration: 629
+Iteration 629, lower bound = -102.63, time = 28.56s
+Test :-101.86696243
+Iteration: 630
+Iteration 630, lower bound = -102.62, time = 28.60s
+Test :-101.850873203
+Iteration: 631
+Iteration 631, lower bound = -102.59, time = 28.65s
+Test :-101.829655989
+Iteration: 632
+Iteration 632, lower bound = -102.61, time = 28.61s
+Test :-101.833636701
+Iteration: 633
+Iteration 633, lower bound = -102.60, time = 28.62s
+Test :-101.812151484
+Iteration: 634
+Iteration 634, lower bound = -102.60, time = 28.63s
+Test :-101.852875643
+Iteration: 635
+Iteration 635, lower bound = -102.64, time = 28.58s
+Test :-101.753359531
+Iteration: 636
+Iteration 636, lower bound = -102.60, time = 28.94s
+Test :-101.841236464
+Iteration: 637
+Iteration 637, lower bound = -102.62, time = 28.40s
+Test :-101.85222257
+Iteration: 638
+Iteration 638, lower bound = -102.59, time = 28.43s
+Test :-101.830302994
+Iteration: 639
+Iteration 639, lower bound = -102.63, time = 28.41s
+Test :-101.839600916
+Iteration: 640
+Iteration 640, lower bound = -102.59, time = 28.43s
+Test :-101.780220791
+Iteration: 641
+Iteration 641, lower bound = -102.54, time = 28.37s
+Test :-101.756826393
+Iteration: 642
+Iteration 642, lower bound = -102.53, time = 28.37s
+Test :-101.783995554
+Iteration: 643
+Iteration 643, lower bound = -102.58, time = 28.37s
+Test :-101.816119211
+Iteration: 644
+Iteration 644, lower bound = -102.55, time = 28.37s
+Test :-101.729219729
+Iteration: 645
+Iteration 645, lower bound = -102.57, time = 29.07s
+Test :-101.773238523
+Iteration: 646
+Iteration 646, lower bound = -102.56, time = 28.59s
+Test :-101.75168424
+Iteration: 647
+Iteration 647, lower bound = -102.54, time = 28.61s
+Test :-101.800179685
+Iteration: 648
+Iteration 648, lower bound = -102.56, time = 28.66s
+Test :-101.785179534
+Iteration: 649
+Iteration 649, lower bound = -102.57, time = 28.64s
+Test :-101.789380611
+Iteration: 650
+Iteration 650, lower bound = -102.54, time = 28.67s
+Test :-101.824378528
+Iteration: 651
+Iteration 651, lower bound = -102.53, time = 28.68s
+Test :-101.777991225
+Iteration: 652
+Iteration 652, lower bound = -102.54, time = 28.78s
+Test :-101.728468643
+Iteration: 653
+Iteration 653, lower bound = -102.54, time = 28.95s
+Test :-101.712788016
+Iteration: 654
+Iteration 654, lower bound = -102.49, time = 28.92s
+Test :-101.838114309
+Iteration: 655
+Iteration 655, lower bound = -102.57, time = 28.38s
+Test :-101.726412889
+Iteration: 656
+Iteration 656, lower bound = -102.56, time = 28.36s
+Test :-101.764303314
+Iteration: 657
+Iteration 657, lower bound = -102.49, time = 28.47s
+Test :-101.762024941
+Iteration: 658
+Iteration 658, lower bound = -102.55, time = 28.42s
+Test :-101.738018363
+Iteration: 659
+Iteration 659, lower bound = -102.53, time = 28.48s
+Test :-101.698189623
+Iteration: 660
+Iteration 660, lower bound = -102.51, time = 30.08s
+Test :-101.723222975
+Iteration: 661
+Iteration 661, lower bound = -102.48, time = 28.57s
+Test :-101.745909672
+Iteration: 662
+Iteration 662, lower bound = -102.49, time = 28.52s
+Test :-101.834070854
+Iteration: 663
+Iteration 663, lower bound = -102.51, time = 28.52s
+Test :-101.724615745
+Iteration: 664
+Iteration 664, lower bound = -102.47, time = 28.53s
+Test :-101.701495858
+Iteration: 665
+Iteration 665, lower bound = -102.49, time = 28.52s
+Test :-101.703431086
+Iteration: 666
+Iteration 666, lower bound = -102.51, time = 28.53s
+Test :-101.685017154
+Iteration: 667
+Iteration 667, lower bound = -102.48, time = 30.51s
+Test :-101.810409254
+Iteration: 668
+Iteration 668, lower bound = -102.49, time = 28.51s
+Test :-101.719767557
+Iteration: 669
+Iteration 669, lower bound = -102.48, time = 28.39s
+Test :-101.700223574
+Iteration: 670
+Iteration 670, lower bound = -102.47, time = 28.39s
+Test :-101.702403576
+Iteration: 671
+Iteration 671, lower bound = -102.47, time = 28.38s
+Test :-101.76058003
+Iteration: 672
+Iteration 672, lower bound = -102.46, time = 28.37s
+Test :-101.703335455
+Iteration: 673
+Iteration 673, lower bound = -102.47, time = 28.38s
+Test :-101.593109654
+Iteration: 674
+Iteration 674, lower bound = -102.49, time = 29.05s
+Test :-101.691908643
+Iteration: 675
+Iteration 675, lower bound = -102.41, time = 28.56s
+Test :-101.667540146
+Iteration: 676
+Iteration 676, lower bound = -102.44, time = 28.44s
+Test :-101.723035389
+Iteration: 677
+Iteration 677, lower bound = -102.47, time = 28.39s
+Test :-101.666940603
+Iteration: 678
+Iteration 678, lower bound = -102.46, time = 28.38s
+Test :-101.672941147
+Iteration: 679
+Iteration 679, lower bound = -102.46, time = 28.38s
+Test :-101.595337286
+Iteration: 680
+Iteration 680, lower bound = -102.42, time = 28.37s
+Test :-101.70697104
+Iteration: 681
+Iteration 681, lower bound = -102.46, time = 28.38s
+Test :-101.643374689
+Iteration: 682
+Iteration 682, lower bound = -102.44, time = 28.39s
+Test :-101.678031673
+Iteration: 683
+Iteration 683, lower bound = -102.41, time = 28.39s
+Test :-101.654038257
+Iteration: 684
+Iteration 684, lower bound = -102.46, time = 28.38s
+Test :-101.6971137
+Iteration: 685
+Iteration 685, lower bound = -102.44, time = 28.38s
+Test :-101.640204278
+Iteration: 686
+Iteration 686, lower bound = -102.44, time = 28.37s
+Test :-101.62787661
+Iteration: 687
+Iteration 687, lower bound = -102.41, time = 28.38s
+Test :-101.670613937
+Iteration: 688
+Iteration 688, lower bound = -102.42, time = 28.37s
+Test :-101.691635217
+Iteration: 689
+Iteration 689, lower bound = -102.42, time = 28.38s
+Test :-101.661678028
+Iteration: 690
+Iteration 690, lower bound = -102.38, time = 28.40s
+Test :-101.617166323
+Iteration: 691
+Iteration 691, lower bound = -102.41, time = 28.41s
+Test :-101.65108052
+Iteration: 692
+Iteration 692, lower bound = -102.41, time = 28.38s
+Test :-101.668906749
+Iteration: 693
+Iteration 693, lower bound = -102.38, time = 28.41s
+Test :-101.635579316
+Iteration: 694
+Iteration 694, lower bound = -102.41, time = 28.43s
+Test :-101.657191024
+Iteration: 695
+Iteration 695, lower bound = -102.39, time = 28.39s
+Test :-101.657267669
+Iteration: 696
+Iteration 696, lower bound = -102.41, time = 28.38s
+Test :-101.629146777
+Iteration: 697
+Iteration 697, lower bound = -102.41, time = 28.44s
+Test :-101.60817829
+Iteration: 698
+Iteration 698, lower bound = -102.37, time = 28.38s
+Test :-101.61808878
+Iteration: 699
+Iteration 699, lower bound = -102.39, time = 28.38s
+Test :-101.608512799
+Iteration: 700
+Iteration 700, lower bound = -102.39, time = 28.36s
+Test :-101.523122504
+Iteration: 701
+Iteration 701, lower bound = -102.38, time = 29.00s
+Test :-101.648722461
+Iteration: 702
+Iteration 702, lower bound = -102.35, time = 28.38s
+Test :-101.635008441
+Iteration: 703
+Iteration 703, lower bound = -102.33, time = 28.42s
+Test :-101.645834662
+Iteration: 704
+Iteration 704, lower bound = -102.38, time = 28.40s
+Test :-101.513669154
+Iteration: 705
+Iteration 705, lower bound = -102.36, time = 28.95s
+Test :-101.621345333
+Iteration: 706
+Iteration 706, lower bound = -102.38, time = 28.44s
+Test :-101.512889324
+Iteration: 707
+Iteration 707, lower bound = -102.34, time = 28.92s
+Test :-101.650566405
+Iteration: 708
+Iteration 708, lower bound = -102.33, time = 28.40s
+Test :-101.583354034
+Iteration: 709
+Iteration 709, lower bound = -102.36, time = 28.37s
+Test :-101.586666449
+Iteration: 710
+Iteration 710, lower bound = -102.36, time = 28.37s
+Test :-101.673986538
+Iteration: 711
+Iteration 711, lower bound = -102.33, time = 28.37s
+Test :-101.570989633
+Iteration: 712
+Iteration 712, lower bound = -102.34, time = 28.40s
+Test :-101.652449447
+Iteration: 713
+Iteration 713, lower bound = -102.32, time = 28.41s
+Test :-101.594408994
+Iteration: 714
+Iteration 714, lower bound = -102.32, time = 28.39s
+Test :-101.605261998
+Iteration: 715
+Iteration 715, lower bound = -102.32, time = 28.39s
+Test :-101.598896477
+Iteration: 716
+Iteration 716, lower bound = -102.34, time = 28.40s
+Test :-101.559965652
+Iteration: 717
+Iteration 717, lower bound = -102.34, time = 28.37s
+Test :-101.579117988
+Iteration: 718
+Iteration 718, lower bound = -102.34, time = 28.36s
+Test :-101.582147544
+Iteration: 719
+Iteration 719, lower bound = -102.31, time = 28.37s
+Test :-101.561960436
+Iteration: 720
+Iteration 720, lower bound = -102.29, time = 28.37s
+Test :-101.569123692
+Iteration: 721
+Iteration 721, lower bound = -102.31, time = 28.37s
+Test :-101.498219468
+Iteration: 722
+Iteration 722, lower bound = -102.30, time = 29.20s
+Test :-101.591236599
+Iteration: 723
+Iteration 723, lower bound = -102.27, time = 28.56s
+Test :-101.613754044
+Iteration: 724
+Iteration 724, lower bound = -102.29, time = 28.53s
+Test :-101.541198267
+Iteration: 725
+Iteration 725, lower bound = -102.31, time = 28.53s
+Test :-101.634581598
+Iteration: 726
+Iteration 726, lower bound = -102.29, time = 28.52s
+Test :-101.514821666
+Iteration: 727
+Iteration 727, lower bound = -102.27, time = 28.52s
+Test :-101.501966922
+Iteration: 728
+Iteration 728, lower bound = -102.29, time = 28.54s
+Test :-101.565264892
+Iteration: 729
+Iteration 729, lower bound = -102.27, time = 28.54s
+Test :-101.569701259
+Iteration: 730
+Iteration 730, lower bound = -102.27, time = 28.54s
+Test :-101.581438833
+Iteration: 731
+Iteration 731, lower bound = -102.26, time = 28.53s
+Test :-101.578991024
+Iteration: 732
+Iteration 732, lower bound = -102.29, time = 28.60s
+Test :-101.479055695
+Iteration: 733
+Iteration 733, lower bound = -102.30, time = 29.39s
+Test :-101.528970753
+Iteration: 734
+Iteration 734, lower bound = -102.30, time = 28.55s
+Test :-101.582643312
+Iteration: 735
+Iteration 735, lower bound = -102.28, time = 28.55s
+Test :-101.534013959
+Iteration: 736
+Iteration 736, lower bound = -102.28, time = 28.57s
+Test :-101.583956587
+Iteration: 737
+Iteration 737, lower bound = -102.28, time = 28.55s
+Test :-101.518137002
+Iteration: 738
+Iteration 738, lower bound = -102.26, time = 28.55s
+Test :-101.499405191
+Iteration: 739
+Iteration 739, lower bound = -102.23, time = 28.54s
+Test :-101.592985463
+Iteration: 740
+Iteration 740, lower bound = -102.27, time = 28.56s
+Test :-101.55012261
+Iteration: 741
+Iteration 741, lower bound = -102.25, time = 28.62s
+Test :-101.530104481
+Iteration: 742
+Iteration 742, lower bound = -102.23, time = 28.53s
+Test :-101.474748932
+Iteration: 743
+Iteration 743, lower bound = -102.24, time = 34.04s
+Test :-101.523123683
+Iteration: 744
+Iteration 744, lower bound = -102.23, time = 28.40s
+Test :-101.426643938
+Iteration: 745
+Iteration 745, lower bound = -102.23, time = 29.35s
+Test :-101.511251762
+Iteration: 746
+Iteration 746, lower bound = -102.25, time = 28.58s
+Test :-101.562853644
+Iteration: 747
+Iteration 747, lower bound = -102.23, time = 28.55s
+Test :-101.497282665
+Iteration: 748
+Iteration 748, lower bound = -102.25, time = 28.54s
+Test :-101.480138982
+Iteration: 749
+Iteration 749, lower bound = -102.21, time = 28.53s
+Test :-101.505708857
+Iteration: 750
+Iteration 750, lower bound = -102.22, time = 28.54s
+Test :-101.435533772
+Iteration: 751
+Iteration 751, lower bound = -102.23, time = 28.55s
+Test :-101.564821422
+Iteration: 752
+Iteration 752, lower bound = -102.21, time = 28.54s
+Test :-101.41044964
+Iteration: 753
+Iteration 753, lower bound = -102.22, time = 29.01s
+Test :-101.423128011
+Iteration: 754
+Iteration 754, lower bound = -102.23, time = 28.42s
+Test :-101.543758009
+Iteration: 755
+Iteration 755, lower bound = -102.17, time = 28.37s
+Test :-101.446297918
+Iteration: 756
+Iteration 756, lower bound = -102.21, time = 28.37s
+Test :-101.451771918
+Iteration: 757
+Iteration 757, lower bound = -102.20, time = 28.37s
+Test :-101.546896711
+Iteration: 758
+Iteration 758, lower bound = -102.19, time = 28.37s
+Test :-101.474457682
+Iteration: 759
+Iteration 759, lower bound = -102.21, time = 28.40s
+Test :-101.482181797
+Iteration: 760
+Iteration 760, lower bound = -102.14, time = 28.64s
+Test :-101.514267373
+Iteration: 761
+Iteration 761, lower bound = -102.20, time = 28.41s
+Test :-101.466670786
+Iteration: 762
+Iteration 762, lower bound = -102.19, time = 28.45s
+Test :-101.544704527
+Iteration: 763
+Iteration 763, lower bound = -102.22, time = 28.40s
+Test :-101.482942238
+Iteration: 764
+Iteration 764, lower bound = -102.18, time = 28.57s
+Test :-101.599155602
+Iteration: 765
+Iteration 765, lower bound = -102.21, time = 28.36s
+Test :-101.348344243
+Iteration: 766
+Iteration 766, lower bound = -102.19, time = 29.01s
+Test :-101.490900284
+Iteration: 767
+Iteration 767, lower bound = -102.18, time = 28.50s
+Test :-101.506440193
+Iteration: 768
+Iteration 768, lower bound = -102.13, time = 28.51s
+Test :-101.393863175
+Iteration: 769
+Iteration 769, lower bound = -102.17, time = 28.54s
+Test :-101.387725847
+Iteration: 770
+Iteration 770, lower bound = -102.17, time = 28.53s
+Test :-101.412782652
+Iteration: 771
+Iteration 771, lower bound = -102.16, time = 28.56s
+Test :-101.503348619
+Iteration: 772
+Iteration 772, lower bound = -102.15, time = 28.55s
+Test :-101.426889592
+Iteration: 773
+Iteration 773, lower bound = -102.18, time = 28.54s
+Test :-101.378142126
+Iteration: 774
+Iteration 774, lower bound = -102.17, time = 28.54s
+Test :-101.425661237
+Iteration: 775
+Iteration 775, lower bound = -102.16, time = 28.56s
+Test :-101.454281478
+Iteration: 776
+Iteration 776, lower bound = -102.14, time = 28.53s
+Test :-101.450248428
+Iteration: 777
+Iteration 777, lower bound = -102.14, time = 28.57s
+Test :-101.38576389
+Iteration: 778
+Iteration 778, lower bound = -102.14, time = 28.55s
+Test :-101.416486812
+Iteration: 779
+Iteration 779, lower bound = -102.16, time = 28.54s
+Test :-101.420817686
+Iteration: 780
+Iteration 780, lower bound = -102.12, time = 28.55s
+Test :-101.430676651
+Iteration: 781
+Iteration 781, lower bound = -102.13, time = 28.54s
+Test :-101.422845333
+Iteration: 782
+Iteration 782, lower bound = -102.12, time = 28.54s
+Test :-101.457034165
+Iteration: 783
+Iteration 783, lower bound = -102.17, time = 28.56s
+Test :-101.49043945
+Iteration: 784
+Iteration 784, lower bound = -102.11, time = 28.57s
+Test :-101.518305405
+Iteration: 785
+Iteration 785, lower bound = -102.08, time = 28.54s
+Test :-101.373661167
+Iteration: 786
+Iteration 786, lower bound = -102.10, time = 28.58s
+Test :-101.478510254
+Iteration: 787
+Iteration 787, lower bound = -102.13, time = 28.65s
+Test :-101.418875131
+Iteration: 788
+Iteration 788, lower bound = -102.09, time = 28.58s
+Test :-101.410752065
+Iteration: 789
+Iteration 789, lower bound = -102.11, time = 28.58s
+Test :-101.361829132
+Iteration: 790
+Iteration 790, lower bound = -102.12, time = 28.52s
+Test :-101.393985862
+Iteration: 791
+Iteration 791, lower bound = -102.11, time = 28.55s
+Test :-101.400161412
+Iteration: 792
+Iteration 792, lower bound = -102.13, time = 28.67s
+Test :-101.396495242
+Iteration: 793
+Iteration 793, lower bound = -102.09, time = 28.56s
+T

@@ -59,8 +59,8 @@ class VA:
     	"""Compute the gradients and use this to initialize h"""
         totalGradients = self.getGradients(miniBatch)
         for i in xrange(len(totalGradients)):
-            self.h[i] += totalGradients[i]*totalGradients[i]
-
+            self.h[i] += totalGradients[i]*totalGradients[i] 
+ 
     def createGradientFunctions(self):
         #Create the Theano variables
         W1,W2,W3,W4,W5,W6,x,eps = T.dmatrices("W1","W2","W3","W4","W5","W6","x","eps")
@@ -106,6 +106,7 @@ class VA:
 
         self.gradientfunction = th.function(gradvariables + [x,eps], derivatives, on_unused_input='ignore')
         self.lowerboundfunction = th.function(gradvariables + [x,eps], logp, on_unused_input='ignore')
+        self.encodefunction = th.function(gradvariables + [x, eps], z, on_unused_input='ignore')
 
     def iterate(self, data):
        	"""Main method, slices data in minibatches and performs an iteration"""
@@ -118,6 +119,21 @@ class VA:
             miniBatch = data[batches[i]:batches[i+1]]
             totalGradients = self.getGradients(miniBatch.T)
             self.updateParams(totalGradients,N,miniBatch.shape[0])
+
+    def encode(self, data):
+       	"""Main method, slices data in minibatches and performs an iteration"""
+        [N,dimX] = data.shape
+        batches = np.arange(0,N,self.batch_size)
+        outputs = []
+        if batches[-1] != N:
+            batches = np.append(batches,N)
+
+        for i in xrange(0,len(batches)-2):
+            miniBatch = data[batches[i]:batches[i+1]]
+            output_i = self.getEncode(miniBatch.T)
+            outputs.append(output_i)
+
+        return outputs
 
     def getLowerBound(self,data):
     	"""Use this method for example to compute lower bound on testset"""
@@ -134,7 +150,17 @@ class VA:
 
         return lowerbound/N
 
+    def getEncode(self,miniBatch):
+    	"""Compute the gradients for one minibatch and check if these do not contain NaNs"""
+        output=[]
+        for l in xrange(self.L):
+            e = np.random.normal(0,1,[self.dimZ,miniBatch.shape[1]])
+            encode = self.encodefunction(*(self.params),x=miniBatch,eps=e)
+            output.append(encode)
 
+        return output
+
+    
     def getGradients(self,miniBatch):
     	"""Compute the gradients for one minibatch and check if these do not contain NaNs"""
         totalGradients = [0] * len(self.params)

@@ -1,0 +1,2 @@
+Loading MNIST data
+Initializing weights and biases
